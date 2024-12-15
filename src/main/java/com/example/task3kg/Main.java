@@ -10,7 +10,7 @@ import java.nio.file.Path;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        Path fileName = Path.of("C:\\Users\\Home\\Downloads\\CGVSU-main\\CGVSU-main\\3DModels\\SimpleModelsForReaderTests\\Torus.obj");
+        Path fileName = Path.of("C:\\Users\\Home\\Downloads\\CGVSU-main\\CGVSU-main\\3DModels\\SimpleModelsForReaderTests\\Test02.obj");
         String fileContent = Files.readString(fileName);
 
         System.out.println("Loading model ...");
